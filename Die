@@ -9,15 +9,15 @@ public class Die
    public Die()
    {
        sides = 0;
-   }
+   } // end of Die()
    public Die(int newSides)
    {
        sides = newSides;
-   }
+   } // end of Die(int)
    public int getSides()
    {
        return sides;
-   }
+   }  // end of getSides
    public String roll()
    {
        Scanner scan = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class Die
        String output = "";
        output += "You got a " +  roll;
        return output;
-   }
+   } // end of roll method
 
-}
+} // end of class
 
