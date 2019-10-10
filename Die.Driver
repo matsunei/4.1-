@@ -1,0 +1,9 @@
+public class DieDriver
+{
+   public static void main(String[]args)
+   {
+
+       Die end = new Die(9);
+       System.out.println(end.roll());
+   }
+}
