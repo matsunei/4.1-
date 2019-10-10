@@ -5,5 +5,5 @@ public class DieDriver
 
        Die end = new Die(9);
        System.out.println(end.roll());
-   }
-}
+   } // end of main method
+} // end of class
